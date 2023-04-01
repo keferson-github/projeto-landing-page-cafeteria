@@ -502,7 +502,7 @@ main #video iframe{
 
 /* =============== Área dos breakpoints de responsividade ==================== */
  /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 400px) and (max-width:767px){ 
+@media (min-width: 0px) and (max-width:767px){ 
     header{
         background-position: 0px 0px;
         background-repeat: no-repeat;
