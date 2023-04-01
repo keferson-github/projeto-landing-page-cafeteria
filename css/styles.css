@@ -1,0 +1,560 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* 
+fontes do google 
+
+font-family: 'Archivo', sans-serif;
+font-family: 'Courgette', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Lobster', cursive;
+
+
+*/
+
+
+
+/* 
+Remover as margens internas e externas de todos os elementos(tags) html.
+vamos usar o comando margin(externa) com valor 0 e o comando padding(interna) 
+com o valor 0.
+Utilizaremos o comando box-sizing com o valor border-box. Isso permite que 
+as margens internas aplicadas ao elementos html não interfiram no tamanho 
+da caixa em este elemento está.
+*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+*{
+    margin: 0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.abrirmenu{
+    text-decoration: none;
+    background-color: black;
+    border:1px solid rgb(30,30,30);
+    padding: 10px;
+    color:white;
+    font-size:20pt;
+    display: none;
+}
+.fecharmenu{
+    text-decoration: none;
+    color:white;
+    font-size:20pt;
+    padding:5px;
+    border-radius:50%;
+    background-color:red;
+    display:none
+}
+
+
+header{
+    /* Vamos aumentar a altura do header para 500px */
+    height: 500px;
+    /* usamos o comando background-image para 
+    adicionar uma imagem de fundo ao header.
+    Utilizamos o comando ../ para voltar um nível
+     anterior e assim conseguir acessar a pasta 
+     img que está fora da pasta css*/
+    background-image:url("../img/cafeteria1.jpg");
+
+    /* ajustar o tamanho da foto para 100% de largura */
+    background-size: 100%;
+    
+    /*  
+    Para realizar o deslocamento da imagem de fundo
+    utilizaremos comando background-position. Assim
+    você pode descolocar para cima ou para baixo no
+    eixo y e para direita ou esquerda no eixo x
+    */
+    background-position: 0 -100px;
+}
+
+#cabecalho{
+    /* 
+    Aplicar uma cor de fundo preto com um 
+    efeito de transparência. O comando será
+    background-color com o valor rgba, onde "a"
+    do comando rgb é o efeito de transparência 
+    que varia entre 0 e 1, onde 0(zero) é 
+    totalmente transparente e 1 totalmente visível
+     */
+     background-color:rgba(0,0,0,0.6);
+     height:500px;
+     color:#fff;
+}
+
+
+#superior{
+    /*
+    O comando display permite dispor os elementos de algumas maneiras, uma deles
+    flex(flexivel). Isso permite que o conteudo deste elemento fique flexivel.
+    */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /*
+    Para este exemplo foi aplicado uma estrutura flexivel em linha. Portanto o
+    comando flex-direction recebeu o valor row(linha)
+    */
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    /*
+    O comando flex-wrap realiza uma quebra de linha
+    */
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    
+}
+
+h1{
+    -webkit-box-flex:1;
+        -ms-flex:1;
+            flex:1;
+    
+    text-align: center;/*alinhar o título ao centro*/
+    padding-top:30px;/* baixar o título em 30px*/
+    font-family: "arial";
+    font-size:20pt;
+    font-weight: lighter;
+    text-transform: uppercase;
+  
+}
+#superior nav{
+    -webkit-box-flex:2;
+        -ms-flex:2;
+            flex:2;
+    
+    text-align: center;
+    padding-top: 25px ;
+}
+
+/*
+Vamos retirar o marcador da lista ul. Esta lista está na parte
+superior da página, dentro do id superior. O caminho que iremos 
+fazer será: #superior nav ul
+*/
+#superior nav ul{
+    /*Usaremos o comando list-style como none(nenhum) para
+    retirar o marcador*/
+    list-style: none;
+}
+/*
+Para dispor(display) os itens do menu em linha, utilizaremos o 
+comando disply com o valor inline-block
+*/
+#superior nav ul li{
+    display: inline-block;
+    padding: 10px 10px;
+    -webkit-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+    transition: ease 0.5s;
+}
+
+/*
+Foi aplicado ao item li um atributo hover, que é atividado 
+quando o usuário passa o ponteiro do mouse sobre o item li. Aplicamos 
+um efeito de cor de fundo, isso permite que ao passar o mouse sobre
+o link o fundo fique com uma cor diferente.
+*/
+#superior nav ul li:hover{
+    background-color: magenta;
+    /* transform: scale(1.5); */
+}
+
+
+
+#whatsapp{
+    -webkit-box-flex:1;
+        -ms-flex:1;
+            flex:1;
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+#superior nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-family: "tahoma";
+    font-size:10pt;
+    /*
+    O comando text-transform muda o formato da letra(caracter) o torando
+    maiúsculo, minúsculo ou a primeira letra da palavra maiúscula.
+    Tudo maiúsculo -> text-transform: uppercase
+    Tudo minúsculo -> text-transform: lowercase
+    Primeira letra maiúscula -> text-transform: capitalize
+    */
+    text-transform: uppercase;
+
+}
+
+#superior #whatsapp a{
+    color:#fff;
+    text-decoration:none;
+    font-family: "arial";
+
+}
+
+
+
+#cabecalho h2{
+    text-align: center;
+    padding-top:150px;
+    font-family: "verdana";
+    /*
+    Vamos aplicar um espaçamento entre as letras. O comando 
+    é letter-spacing, você pode aplicar valores positivos ou negativos.
+    Sendo, positivo as letras se espalham e negativo as letra se juntam
+    */
+    letter-spacing: 5px;
+    word-spacing: 20px;
+}
+
+
+#cabecalho p{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: arial;
+}
+
+#cabecalho p:hover{
+    color:magenta;
+}
+
+
+/* ========================  estilos do footer ======================= */
+footer{
+    background-color:#424242;
+    /* Vamos deixar o conteúdo do footer flexível com o comando
+    display(dispor|exibir) com o valor flex e aplicar a direção 
+    como row(linha) para o comando flex-direction */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 30px;
+    /* height: 250px; */
+    padding-top:80px;
+    padding-bottom: 80px;
+}
+
+footer #endereco{
+    -webkit-box-flex:1;
+        -ms-flex:1;
+            flex:1;
+    color:#fff;
+    font-family: "arial";
+    font-size:12pt;
+    /* text-align: right; */
+}
+footer #redes{
+    -webkit-box-flex:1;
+        -ms-flex:1;
+            flex:1;
+}
+footer #redes nav{
+    text-align: right;
+}
+footer #redes nav ul{
+    /* para retirar o marcador, usareremos
+    o comando list-style com o valor none */
+    list-style: none;
+}
+/*para dispor os itens de link das redes,
+usaremos o comando display com o valor 
+inline-block*/
+footer #redes nav ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+footer #redes nav ul li a img{
+    width: 32px;
+    height: 32px;
+}
+
+/* ============== estios para a página home ============ */
+main h2{
+    font-family: "lobster";
+    font-size:40pt;
+    margin:30px;
+
+}
+
+main p{
+    margin:0px 200px;
+    text-align: justify;
+    line-height: 25px;
+    font-family: "Archivo";
+    margin-bottom: 30px;
+
+}
+main #imghome{
+    text-align: center;
+}
+main #imghome img{
+    width:300px;
+    height: 300px;
+    /* Vamos arredondar os cantos da imagem com 
+    comando border-radius. O valor, você aplicar em
+    pixel ou percentual. */
+    border-radius: 50%;
+    margin:10px;
+    /* Para deixar as imagens opacas ou transparentes você pode usar 
+    o comando opacity com o valor variando entre 0 e 1. Onde 0(zero)
+    totalmente transparente e 1 totalmente visível */
+    opacity: 0.8;
+    /*
+    Vamos aplicar um efeito de animação com comando transition com 
+    meio segundo.
+    */
+    -webkit-transition:ease 0.5s;
+    -o-transition:ease 0.5s;
+    transition:ease 0.5s
+}
+main #imghome img:hover{
+    opacity: 1;
+    /*Ao passar do mouse sobre a imagem será aplicada a sombra com as 
+    seguintes configurações:para o primeiro valor será 0(zero) esta 
+    posição representa x(horizontal; a segunda posição será 0px que 
+    representa o y(vertical); a terceira posição é o efeito de 
+    enevoado que será 20 e por último a cor da sombra;*/
+    -webkit-box-shadow: 0px 0px 20px black;
+            box-shadow: 0px 0px 20px black;
+}
+
+main #categoria{
+    width: 70%;
+    margin-top:-70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+
+main #categoria img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /*
+    sombra com as seguintes configurações:para o primeiro valor será 0(zero) esta 
+    posição representa x(horizontal; a segunda posição será 0px que 
+    representa o y(vertical); a terceira posição é o efeito de 
+    enevoado que será 20 e por último a cor da sombra;*/
+    -webkit-box-shadow: 2px 2px 5px silver;
+            box-shadow: 2px 2px 5px silver;
+}
+
+main #categoria div{
+    text-align: center;
+    -webkit-box-flex:1;
+        -ms-flex:1;
+            flex:1
+}
+
+main #categoria div h3{
+    font-family: "Courgette";
+    margin:10px;
+    /* text-shadow: 2px -2px 5px red; */
+}
+
+main section{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+main #item1, #item2,#item3,#item4,#item5,#item6{
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 32%;
+    margin:10px;
+}
+main #item1 img, #item2 img, #item3 img, #item4 img, #item5 img, #item6 img{
+    width: 200px;
+    height: 250px;
+    border-radius:10px;
+    margin:5px;
+}
+main section div p{
+    margin:0px;
+}
+
+main h4{
+    font-family: "arial";
+    font-size: 30pt;
+    text-align: center;
+    margin:20px auto;
+    border-bottom: 1px dotted brown;
+}
+
+main #categoria a{
+    text-decoration: none;
+    color:#333;
+}
+main #mapa iframe{
+    width: 100%;
+    height: 600px;
+}
+
+/* ==================== formatação do formulário ======================== */
+main form{
+    width: 50%;
+    padding:10px;
+    margin:20px auto;
+    /* border:1px solid silver;
+    box-shadow: 0px 0px 10px gray; */
+}
+
+main form input[type=text],
+main form input[type=tel],
+main form input[type=email]{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 0px;
+    border-bottom: 1px solid silver;
+    outline: none;/*retirar a borda ao clicar no campo*/
+}
+main form select{
+    width: 50%;
+    padding:10px;
+    margin-bottom: 10px;
+    border: 0px;
+    border-bottom: 1px solid silver;
+    display: block;
+}
+main form textarea{
+    width: 95%;
+    height: 200px;
+    font-family: "arial";
+    padding:10px;
+    display: block;
+    outline-color: limegreen;
+}
+
+main form span{
+    font-family: arial;
+}
+
+main form input[type=submit]{
+    display: block;
+    margin:20px auto;
+    border:0px;
+    background-color: brown;
+    color:white;
+    padding:10px;
+    -webkit-transition: ease 0.5s;
+    -o-transition: ease 0.5s;
+    transition: ease 0.5s;
+    width: 200px;
+}
+main form input[type=submit]:hover{
+    cursor: pointer;
+    width: 400px ;
+}
+
+
+main #video{
+    text-align: center;
+}
+main #video iframe{
+    width: 80%;
+    height: 400px;
+}
+
+
+
+/* =============== Área dos breakpoints de responsividade ==================== */
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 400px) and (max-width:767px){ 
+    header{
+        background-position: 0px 0px;
+        background-repeat: no-repeat;
+    }
+
+    #superior nav{
+        background-color: black !important ;
+        position: fixed;
+        left: -210px;
+        top:0px;
+        z-index: 10000;
+        width: 200px;
+        height: 100vh;
+        text-align: left;
+        padding-top: 100px ;
+        padding-left: 20px;
+        transition: ease 0.5s;
+    }
+    
+    #superior nav ul li{
+        display: block;
+        margin-bottom: 10px;
+    }
+    .abrirmenu{
+        display: block;
+        width: 40px;
+    }
+    .fecharmenu{
+        display: block;
+        width: 30px;
+        height: 30px;
+        font-size: 20pt;
+        padding:0px;
+        text-align: center;
+        position: absolute;
+        top:0px;
+        left:170px;
+        border-radius: 0;
+    }
+ }
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

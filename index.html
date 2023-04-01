@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria Brasil</title>
+    
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Courgette&family=Gloria+Hallelujah&family=Lobster&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+   <header>
+    <div id="cabecalho">
+        <a href="#" class="abrirmenu"  onclick="abrir();"  > &equiv; </a>
+
+        <div id="superior">
+
+        <h1>Cafeteria Brasil</h1>
+        <nav>
+            <a href="#" class="fecharmenu" onclick="fechar();"> &times; </a>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="menu.html">menu</a></li>
+                <li><a href="quemsomos.html">quem somos</a></li>
+                <li><a href="localizacao.html">localização</a></li>
+                <li><a href="contato.html">contato</a></li>
+            </ul>
+        </nav>
+        <div id="whatsapp">
+            <a href="https://wa.me/5511985633023">Faça o seu pedido</a>
+        </div>
+        </div>
+        <h2>Venha Provar o Nosso Café</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In maxime mollitia cum voluptates vero similique ut iure, assumenda voluptatum reprehenderit architecto possimus delectus sint! Odio, quam! Explicabo tempore omnis ex.</p>
+
+    </div>
+   </header> 
+
+
+
+   <main>
+
+    <h2>Seja Bem Vindo a Nossa Cafeteria</h2>
+    <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum enim earum dignissimos nesciunt vel, repellat nulla error quos porro odit id aspernatur provident cumque ipsa, autem beatae repellendus aperiam eos?</span><span>Asperiores provident, reprehenderit explicabo tenetur voluptatum dolorum obcaecati eum vero nemo adipisci consequatur. Fuga nisi quis tempora rerum eum libero, minima exercitationem, tenetur harum iusto itaque asperiores labore. Dolor, fugit?</span><span>Delectus nihil fugiat sed, error quis, unde fuga natus deleniti vel, nulla iste. Id temporibus natus tempore expedita. Quis officia doloribus explicabo provident autem eveniet nesciunt eum ratione nostrum amet.</span></p>
+    <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium soluta quo illum nam culpa nemo consectetur minima, porro sunt architecto magni voluptas cumque dicta dolores nihil, animi aspernatur laboriosam repellat.</span><span>Veniam dolores voluptate, id itaque mollitia nihil optio et aliquid ut accusamus veritatis unde impedit voluptatem. Quos dolore, ab quo impedit nobis nemo facilis dolorem velit fuga, reprehenderit expedita dicta.</span><span>Possimus, placeat nisi magnam eum eos nesciunt molestias quasi aliquam similique officiis atque, exercitationem hic earum. Odio velit temporibus illum blanditiis aliquid fuga est nihil. Eveniet autem eum nihil praesentium!</span></p>
+
+    <div id="imghome">
+        <img src="img/tomarcafe1.jpg" alt="Uma pessoa tomando café">
+        <img src="img/tomarcafe2.jpg" alt="Outra pessoa tomando café">
+    </div>
+
+
+
+   </main>
+
+
+   <footer>
+    <div id="endereco">
+        <p>Rua José de Oliveira, 73 - Vila Holanda - São Paulo - SP</p>
+        <p>Tel.: 11 - 5658-9698 | 11 - 96588-6685</p>
+    </div>
+    
+    <div id="redes">
+        <nav>
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="facebook"></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="instagram"></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><img src="img/youtube.png" alt="facebook"></a></li>
+            </ul>
+        </nav>
+    </div>
+
+   </footer>
+
+   <script>
+    function abrir(){
+        document.getElementsByTagName("nav")[0].style.left="0px";
+    }
+
+    function fechar(){
+        document.getElementsByTagName("nav")[0].style.left="-210px";
+    }
+
+   </script>
+
+
+
+</body>
+</html>
