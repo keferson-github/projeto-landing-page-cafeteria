@@ -299,20 +299,13 @@ footer #redes nav ul li a img {
     height: 32px;
 }
 
-main {
-    min-width: 300px;
-    max-width: 1000px;
-}
-
-main img {
-    width: 100%;
-}
 
 /* ============== estios para a página home ============ */
 main h2 {
     font-family: "lobster";
     font-size: 40pt;
     margin: 30px;
+    text-align: center;
 
 }
 
@@ -362,7 +355,7 @@ main #imghome img:hover {
 }
 
 main #categoria {
-    width: 70%;
+    width: 10%;
     margin-top: -70px;
     margin-left: auto;
     margin-right: auto;
