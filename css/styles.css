@@ -69,6 +69,10 @@ header {
      anterior e assim conseguir acessar a pasta 
      img que está fora da pasta css*/
     background-image: url("/img/fundo1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 
     /* ajustar o tamanho da foto para 100% de largura */
     background-size: 100%;
@@ -218,26 +222,24 @@ o link o fundo fique com uma cor diferente.
 #cabecalho h2 {
     text-align: center;
     padding-top: 150px;
-    font-family: "verdana";
+    font-family: "arial";
     /*
     Vamos aplicar um espaçamento entre as letras. O comando 
     é letter-spacing, você pode aplicar valores positivos ou negativos.
     Sendo, positivo as letras se espalham e negativo as letra se juntam
     */
-    letter-spacing: 5px;
     word-spacing: 20px;
 }
 
-
 #cabecalho p {
     width: 70%;
-    margin: 0 auto;
+    margin: 25px auto;
     text-align: center;
     font-family: arial;
 }
 
 #cabecalho p:hover {
-    color: magenta;
+    color: rgb(143, 169, 16);
 }
 
 
