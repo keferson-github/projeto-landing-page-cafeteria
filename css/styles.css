@@ -62,7 +62,6 @@ html {
 
 header {
     /* Vamos aumentar a altura do header para 500px */
-    height: 500px;
     /* usamos o comando background-image para 
     adicionar uma imagem de fundo ao header.
     Utilizamos o comando ../ para voltar um nível
@@ -73,16 +72,17 @@ header {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    height: 500px;
 
     /* ajustar o tamanho da foto para 100% de largura */
-    background-size: 100%;
+
     /*  
     Para realizar o deslocamento da imagem de fundo
     utilizaremos comando background-position. Assim
     você pode descolocar para cima ou para baixo no
     eixo y e para direita ou esquerda no eixo x
     */
-    background-position: 0 -100px;
+
 }
 
 #cabecalho {
@@ -94,7 +94,7 @@ header {
     que varia entre 0 e 1, onde 0(zero) é 
     totalmente transparente e 1 totalmente visível
      */
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.417);
     height: 500px;
     color: #fff;
 }
@@ -178,8 +178,8 @@ quando o usuário passa o ponteiro do mouse sobre o item li. Aplicamos
 um efeito de cor de fundo, isso permite que ao passar o mouse sobre
 o link o fundo fique com uma cor diferente.
 */
-#superior nav ul li:hover {
-    background-color: magenta;
+#superior nav a:hover {
+    color: rgb(190, 165, 25);
     /* transform: scale(1.5); */
 }
 
@@ -236,10 +236,6 @@ o link o fundo fique com uma cor diferente.
     margin: 25px auto;
     text-align: center;
     font-family: arial;
-}
-
-#cabecalho p:hover {
-    color: rgb(143, 169, 16);
 }
 
 
