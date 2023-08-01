@@ -299,6 +299,15 @@ footer #redes nav ul li a img {
     height: 32px;
 }
 
+main {
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+main img {
+    width: 100%;
+}
+
 /* ============== estios para a página home ============ */
 main h2 {
     font-family: "lobster";
