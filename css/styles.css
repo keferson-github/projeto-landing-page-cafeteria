@@ -355,13 +355,11 @@ main #imghome img:hover {
 }
 
 main #categoria {
-    width: 10%;
     margin-top: -70px;
-    margin-left: auto;
-    margin-right: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    justify-content: space-between;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
@@ -369,9 +367,12 @@ main #categoria {
 }
 
 main #categoria img {
+    display: relative;
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    margin-right: 20px;
+    align-items: center;
     /*
     sombra com as seguintes configurações:para o primeiro valor será 0(zero) esta 
     posição representa x(horizontal; a segunda posição será 0px que 
