@@ -241,7 +241,7 @@ o link o fundo fique com uma cor diferente.
 
 /* ========================  estilos do footer ======================= */
 footer {
-    background-color: #424242;
+    background-color: #000000;
     /* Vamos deixar o conteúdo do footer flexível com o comando
     display(dispor|exibir) com o valor flex e aplicar a direção 
     como row(linha) para o comando flex-direction */
@@ -252,10 +252,10 @@ footer {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    padding: 30px;
+    padding: 20px;
     /* height: 250px; */
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 footer #endereco {
@@ -302,6 +302,15 @@ footer #redes nav ul li a img {
 main h2 {
     font-family: "lobster";
     font-size: 40pt;
+    margin: 30px;
+    text-align: center;
+
+}
+
+/*Nossa Localização*/
+main h3 {
+    font-family: "lobster";
+    font-size: 25px;
     margin: 30px;
     text-align: center;
 
@@ -454,9 +463,9 @@ main #categoria a {
     color: #333;
 }
 
-main #mapa iframe {
+main #mapa {
+    height: auto;
     width: 100%;
-    height: 600px;
 }
 
 /* ==================== formatação do formulário ======================== */
