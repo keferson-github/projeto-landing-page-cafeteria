@@ -228,7 +228,6 @@ o link o fundo fique com uma cor diferente.
     é letter-spacing, você pode aplicar valores positivos ou negativos.
     Sendo, positivo as letras se espalham e negativo as letra se juntam
     */
-    word-spacing: 20px;
 }
 
 #cabecalho p {
@@ -412,6 +411,7 @@ main section {
     flex-direction: row;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    margin-bottom: 70px;
 }
 
 main #item1,
@@ -507,7 +507,7 @@ main form input[type=email] {
 main form select {
     width: 50%;
     padding: 10px;
-    margin-left: 25px;
+    margin-left: 22px;
     margin-bottom: 10px;
     border: 0px;
     border-bottom: 1px solid silver;
@@ -519,10 +519,11 @@ main form textarea {
     height: 200px;
     font-family: "arial";
     padding: 10px;
-    margin-left: 20px;
+    margin-left: 21px;
     display: block;
-    outline-color: limegreen;
+    outline-color: rgba(0, 0, 0, 0.481);
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 select {
@@ -531,6 +532,7 @@ select {
 
 main form span {
     font-family: arial;
+    margin-top: 10px;
 }
 
 main form input[type=submit] {
