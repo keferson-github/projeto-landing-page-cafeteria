@@ -41,8 +41,8 @@ html {
 
 .abrirmenu {
     text-decoration: none;
-    background-color: black;
-    border: 1px solid rgb(30, 30, 30);
+    background-color: transparent;
+    border: 1px solid rgba(30, 30, 30, 0.572);
     padding: 10px;
     color: white;
     font-size: 20pt;
@@ -52,11 +52,13 @@ html {
 .fecharmenu {
     text-decoration: none;
     color: white;
-    font-size: 20pt;
+    font-size: 14pt;
     padding: 5px;
-    border-radius: 50%;
     background-color: red;
-    display: none
+    display: none;
+    border-radius: 30px;
+    top: 10px;
+    left: 160px;
 }
 
 
@@ -504,6 +506,7 @@ main form input[type=email] {
     border-bottom: 1px solid silver;
     outline: none;
     border-radius: 10px;
+    margin-left: 22px;
     /*retirar a borda ao clicar no campo*/
 }
 
@@ -572,6 +575,7 @@ main form input[type=submit]:hover {
         background-position: 0px 0px;
         background-repeat: no-repeat;
         flex-direction: column;
+
     }
 
     #superior nav {
@@ -598,74 +602,90 @@ main form input[type=submit]:hover {
         width: 40px;
     }
 
-    .fecharmenu {
-        display: block;
-        width: 30px;
-        height: 30px;
-        font-size: 20pt;
-        padding: 0px;
-        text-align: center;
-        position: absolute;
-        top: 0px;
-        left: 170px;
-        border-radius: 0;
-    }
-}
+    @media (min-width: 0px) and (max-width: 1000px) {
 
-
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {}
-
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 0px) and (max-width: 1000px) {
-    header {
-        background-position: 0px 0px;
-        background-repeat: no-repeat;
-        flex-direction: column;
+        .fecharmenu {
+            display: block;
+            width: 30px;
+            height: 30px;
+            font-size: 20pt;
+            padding: 0px;
+            text-align: center;
+            position: absolute;
+            top: 0px;
+            left: 170px;
+            border-radius: 0;
+        }
     }
 
-    #superior nav {
-        background-color: black !important;
-        position: fixed;
-        left: -210px;
-        top: 0px;
-        z-index: 10000;
-        width: 200px;
-        height: 100vh;
-        text-align: left;
-        padding-top: 100px;
-        padding-left: 20px;
-        transition: ease 0.5s;
+
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) {
+
+        .fecharmenu {
+            display: block;
+            width: 30px;
+            height: 30px;
+            font-size: 18px;
+            padding: 0px;
+            text-align: center;
+            position: absolute;
+            top: 10px;
+            left: 160px;
+            border-radius: 30px;
+        }
     }
 
-    #superior nav ul li {
-        display: block;
-        margin-bottom: 10px;
+
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 0px) and (max-width: 1000px) {
+        header {
+            background-position: 0px 0px;
+            background-repeat: no-repeat;
+            flex-direction: column;
+        }
+
+        #superior nav {
+            background-color: black !important;
+            position: fixed;
+            left: -210px;
+            top: 0px;
+            z-index: 10000;
+            width: 200px;
+            height: 100vh;
+            text-align: left;
+            padding-top: 100px;
+            padding-left: 20px;
+            transition: ease 0.5s;
+        }
+
+        #superior nav ul li {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .abrirmenu {
+            display: block;
+            width: 40px;
+        }
+
+
+        .fecharmenu {
+            display: block;
+            width: 30px;
+            height: 30px;
+            font-size: 18px;
+            padding: 0px;
+            text-align: center;
+            position: absolute;
+            top: 10px;
+            left: 160px;
+            border-radius: 30px;
+        }
     }
 
-    .abrirmenu {
-        display: block;
-        width: 40px;
-    }
+    /* X-Large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {}
 
-    .fecharmenu {
-        display: block;
-        width: 30px;
-        height: 30px;
-        font-size: 20pt;
-        padding: 0px;
-        text-align: center;
-        position: absolute;
-        top: 0px;
-        left: 170px;
-        border-radius: 0;
-    }
-}
-
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
-
-/* XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {}
+    /* XX-Large devices (larger desktops, 1400px and up) */
+    @media (min-width: 1400px) {}
