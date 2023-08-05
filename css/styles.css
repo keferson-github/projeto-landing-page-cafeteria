@@ -320,7 +320,7 @@ main p {
     margin: 0px 200px;
     text-align: justify;
     line-height: 25px;
-    font-family: "Archivo";
+    font-family: "Arial";
     margin-bottom: 30px;
 
 }
@@ -470,11 +470,25 @@ main #mapa {
 
 /* ==================== formatação do formulário ======================== */
 main form {
-    width: 50%;
-    padding: 10px;
-    margin: 20px auto;
+    background-color: #000000b1;
+    display: black;
+    justify-content: center;
+    width: 70%;
+    padding: 35px;
+    margin: 10px auto;
+    border-radius: 10px;
+    color: #fff;
     /* border:1px solid silver;
     box-shadow: 0px 0px 10px gray; */
+}
+
+
+main form textarea {
+    margin-left: 7px;
+}
+
+select {
+    margin-left: 10px;
 }
 
 main form input[type=text],
@@ -486,12 +500,14 @@ main form input[type=email] {
     border: 0px;
     border-bottom: 1px solid silver;
     outline: none;
+    border-radius: 10px;
     /*retirar a borda ao clicar no campo*/
 }
 
 main form select {
     width: 50%;
     padding: 10px;
+    margin-left: 25px;
     margin-bottom: 10px;
     border: 0px;
     border-bottom: 1px solid silver;
@@ -503,8 +519,14 @@ main form textarea {
     height: 200px;
     font-family: "arial";
     padding: 10px;
+    margin-left: 20px;
     display: block;
     outline-color: limegreen;
+    border-radius: 10px;
+}
+
+select {
+    border-radius: 10px;
 }
 
 main form span {
@@ -515,28 +537,25 @@ main form input[type=submit] {
     display: block;
     margin: 20px auto;
     border: 0px;
-    background-color: brown;
+    background-color: rgb(190, 22, 22);
     color: white;
     padding: 10px;
-    -webkit-transition: ease 0.5s;
-    -o-transition: ease 0.5s;
-    transition: ease 0.5s;
-    width: 200px;
+    -webkit-transition: ease 0.2s;
+    -o-transition: ease 0.2s;
+    transition: ease 0.2s;
+    width: 100px;
+    border-radius: 30px;
+}
+
+main form input[type=submit] {
+    background-color: #000000;
 }
 
 main form input[type=submit]:hover {
+    background-color: rgb(250, 15, 15);
+    color: white;
     cursor: pointer;
-    width: 400px;
-}
-
-
-main #video {
-    text-align: center;
-}
-
-main #video iframe {
-    width: 80%;
-    height: 400px;
+    width: 120px;
 }
 
 
