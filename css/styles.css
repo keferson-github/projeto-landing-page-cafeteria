@@ -67,7 +67,7 @@ header {
     Utilizamos o comando ../ para voltar um nível
      anterior e assim conseguir acessar a pasta 
      img que está fora da pasta css*/
-    background-image: url(/img/banner-full-black-cafe.jpg);
+    background-image: url("/img/banner-full-black-cafe.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
