@@ -270,7 +270,7 @@ footer {
     padding: 30px;
     /* height: 250px; */
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 footer #endereco {
@@ -480,6 +480,7 @@ select {
 main form span {
     font-family: arial;
     margin-top: 10px;
+    margin-left: 25px;
 }
 
 main form input[type=submit] {
