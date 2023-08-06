@@ -175,13 +175,14 @@ o link o fundo fique com uma cor diferente.
 
 
 #whatsapp {
-    display: inline-block;
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    text-align: center;
+    display: inline;
+    -webkit-box-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+    text-align: end;
     padding-top: 25px;
-    margin-top: 20px;
+    margin-top: -50px;
+    margin-right: 20px;
 }
 
 
@@ -206,7 +207,6 @@ o link o fundo fique com uma cor diferente.
     color: #fff;
     text-decoration: none;
     font-family: "arial";
-    margin: auto;
 }
 
 #superior #whatsapp a {
@@ -248,9 +248,9 @@ o link o fundo fique com uma cor diferente.
 }
 
 #cabecalho img {
-    height: 150px;
-    width: 150px;
-    margin: auto 20px;
+    height: 100px;
+    width: 100px;
+    margin: -65px 0px 0px 40px;
 }
 
 
@@ -267,10 +267,10 @@ footer {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    padding: 30px;
+    padding: 29px;
     /* height: 250px; */
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: auto;
 }
 
 footer #endereco {
@@ -381,47 +381,25 @@ main #item1,
     margin: 10px;
 }
 
-main #item1 img,
-#item2 img,
-#item3 img,
-#item4 img,
-#item5 img,
-#item6 img {
-    width: 200px;
-    height: 250px;
-    border-radius: 10px;
-    margin: 5px;
-}
-
 main section div p {
     margin: 0px;
 }
 
-main h4 {
-    font-family: "arial";
-    font-size: 30pt;
-    text-align: center;
-    margin: 20px auto;
-    border-bottom: 1px dotted brown;
-}
+
 
 main #categoria a {
     text-decoration: none;
     color: #333;
 }
 
-section #mapa {
-    height: 300px ! important;
-    width: 100% ! important;
-}
 
 /* ==================== formatação do formulário ======================== */
 main form {
-    background-color: #000000b1;
+    background-color: #000000c1;
     display: black;
     justify-content: center;
     width: 100%;
-    padding: 20px;
+    padding: 30px;
     margin: auto 10px;
     border-radius: 20px;
     color: #fff;
@@ -541,11 +519,12 @@ main form input[type=submit]:hover {
 #superior nav ul li {
     display: block;
     margin-bottom: 10px;
+    margin-left: -15px;
 }
 
 .abrirmenu {
     display: block;
-    width: 40px;
+    width: 50px;
 }
 
 
@@ -573,7 +552,7 @@ main form input[type=submit]:hover {
         background-color: red;
         color: white;
         display: block;
-        width: 50px;
+        width: 45px;
         height: 30px;
         font-size: 18px;
         padding: 0px;
@@ -596,7 +575,7 @@ main form input[type=submit]:hover {
         #superior nav {
             background-color: black !important;
             position: fixed;
-            left: -210px;
+            left: -200px;
             top: 0px;
             z-index: 10000;
             width: 200px;
@@ -622,7 +601,7 @@ main form input[type=submit]:hover {
             background-color: red;
             color: white;
             display: block;
-            width: 50px;
+            width: 40px;
             height: 30px;
             font-size: 18px;
             padding: 0px;
