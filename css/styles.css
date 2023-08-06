@@ -473,7 +473,7 @@ main form textarea {
 }
 
 select {
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 main form input[type=text],
