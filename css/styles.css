@@ -74,6 +74,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     height: 500px;
+    margin: auto;
 
     /* ajustar o tamanho da foto para 100% de largura */
 
@@ -98,6 +99,7 @@ header {
     background-color: rgba(0, 0, 0, 0.576);
     height: 500px;
     color: #fff;
+    margin: auto;
 }
 
 
@@ -236,7 +238,7 @@ o link o fundo fique com uma cor diferente.
 }
 
 #container-text-header {
-    margin-top: -90px;
+    margin-top: -130px;
 }
 
 #cabecalho h2 {
@@ -244,6 +246,7 @@ o link o fundo fique com uma cor diferente.
     padding-top: 150px;
     font-family: arial;
     margin: 40px auto;
+    font-size: 30px;
     /*
     Vamos aplicar um espaçamento entre as letras. O comando 
     é letter-spacing, você pode aplicar valores positivos ou negativos.
@@ -256,6 +259,7 @@ o link o fundo fique com uma cor diferente.
     margin: -25px auto;
     text-align: center;
     font-family: arial;
+    font-size: 16px;
 }
 
 #cabecalho img {
@@ -350,7 +354,7 @@ main h3 {
 
 main p {
     margin: auto 20px;
-    text-align: center;
+    text-align: justify;
     text-indent: 20px;
     line-height: 25px;
     font-family: "Arial";
@@ -586,6 +590,7 @@ main form input[type=submit] {
     transition: ease 0.2s;
     width: 100px;
     border-radius: 30px;
+    margin: auto;
 }
 
 main form input[type=submit] {
