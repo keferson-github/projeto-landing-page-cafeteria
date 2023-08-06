@@ -234,10 +234,15 @@ o link o fundo fique com uma cor diferente.
     transition: ease-in 0.2s;
 }
 
+#container-text-header {
+    margin-top: -100px;
+}
+
 #cabecalho h2 {
     text-align: center;
     padding-top: 150px;
-    font-family: "arial";
+    font-family: arial;
+    margin: 40px auto;
     /*
     Vamos aplicar um espaçamento entre as letras. O comando 
     é letter-spacing, você pode aplicar valores positivos ou negativos.
@@ -247,7 +252,7 @@ o link o fundo fique com uma cor diferente.
 
 #cabecalho p {
     width: 80%;
-    margin: 25px auto;
+    margin: -25px auto;
     text-align: center;
     font-family: arial;
 }
@@ -310,6 +315,8 @@ footer #redes nav ul li a img {
     width: 32px;
     height: 32px;
 }
+
+main {}
 
 
 /* ============== estios para a página home ============ */
