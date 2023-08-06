@@ -147,6 +147,13 @@ fazer será: #superior nav ul
     list-style: none;
 }
 
+footer #redes nav ul {
+    list-style: none;
+    display: inline ! important;
+}
+
+
+
 /*
 Para dispor(display) os itens do menu em linha, utilizaremos o 
 comando disply com o valor inline-block
@@ -262,32 +269,35 @@ footer {
     como row(linha) para o comando flex-direction */
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: inline-block;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    padding: 29px;
+    padding: 50px;
     /* height: 250px; */
-    padding-top: 30px;
+    padding-top: 60px;
     padding-bottom: auto;
+    width: 100%;
 }
 
-footer h5 {
+footer h5,
+p {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
+    text-align: center;
     font-size: 16px;
 }
 
-footer #endereco,
-h6 {
+footer #endereco {
     -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 4;
-    color: #fff;
-    font-family: "arial";
+    flex: 4 1 0%;
+    color: rgb(255, 255, 255);
+    font-family: arial;
     font-size: 15px;
-    /* text-align: right; */
+    padding: 30px;
+    text-align: center;
+    margin-bottom: -50px;
+    margin-top: 40px;
 }
 
 #copyright {
@@ -302,13 +312,15 @@ h6 {
 }
 
 footer #redes {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 3;
+    -webkit-box-flex: 6;
+    -ms-flex: 6;
+    margin: auto;
 }
 
 footer #redes nav {
+    display: contents;
     text-align: right;
+    margin: auto;
 }
 
 footer #redes nav ul {
@@ -317,12 +329,19 @@ footer #redes nav ul {
     list-style: none;
 }
 
+dl,
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 15rem ! important;
+}
+
 /*para dispor os itens de link das redes,
 usaremos o comando display com o valor 
 inline-block*/
 footer #redes nav ul li {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 footer #redes nav ul li a img {
@@ -514,7 +533,7 @@ main form input[type=submit]:hover {
         background-position: 0px 0px;
         background-repeat: no-repeat;
 
-        flex-direction: column;
+        flex-direction: row;
 
     }
 }
