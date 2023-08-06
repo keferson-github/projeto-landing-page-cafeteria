@@ -344,6 +344,10 @@ footer #redes nav ul {
     list-style: none;
 }
 
+div#redes {
+    margin-left: 34px;
+}
+
 dl,
 ol,
 ul {
