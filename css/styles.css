@@ -593,7 +593,7 @@ main form input[type=submit] {
     transition: ease 0.2s;
     width: 100px;
     border-radius: 30px;
-    margin: auto;
+    margin: 20px auto;
 }
 
 main form input[type=submit] {
