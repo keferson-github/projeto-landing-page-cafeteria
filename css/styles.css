@@ -127,22 +127,6 @@ header {
 
 }
 
-h1 {
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-
-    text-align: center;
-    /*alinhar o título ao centro*/
-    padding-top: 20px;
-    /* baixar o título em 30px*/
-    font-family: "arial";
-    font-size: 10px;
-    font-weight: lighter;
-    text-transform: uppercase;
-
-}
-
 #superior nav {
     -webkit-box-flex: 2;
     -ms-flex: 2;
@@ -363,84 +347,6 @@ main p {
 }
 
 
-main #imghome img {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    width: 200px;
-    height: 200px;
-    align-items: center;
-    /* Vamos arredondar os cantos da imagem com 
-    comando border-radius. O valor, você aplicar em
-    pixel ou percentual. */
-    border-radius: 20px;
-    margin: 30px;
-    /* Para deixar as imagens opacas ou transparentes você pode usar 
-    o comando opacity com o valor variando entre 0 e 1. Onde 0(zero)
-    totalmente transparente e 1 totalmente visível */
-    opacity: 0.8;
-    /*
-    Vamos aplicar um efeito de animação com comando transition com 
-    meio segundo.
-    */
-    -webkit-transition: ease 0.5s;
-    -o-transition: ease 0.5s;
-    transition: ease 0.5s
-}
-
-main #imghome img:hover {
-    opacity: 1;
-    /*Ao passar do mouse sobre a imagem será aplicada a sombra com as 
-    seguintes configurações:para o primeiro valor será 0(zero) esta 
-    posição representa x(horizontal; a segunda posição será 0px que 
-    representa o y(vertical); a terceira posição é o efeito de 
-    enevoado que será 20 e por último a cor da sombra;*/
-    -webkit-box-shadow: 0px 0px 20px black;
-    box-shadow: 0px 0px 20px black;
-}
-
-main #categoria {
-    margin-top: -70px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    justify-content: space-between;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-}
-
-main #categoria img {
-    display: relative;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-right: 20px;
-    align-items: center;
-    /*
-    sombra com as seguintes configurações:para o primeiro valor será 0(zero) esta 
-    posição representa x(horizontal; a segunda posição será 0px que 
-    representa o y(vertical); a terceira posição é o efeito de 
-    enevoado que será 20 e por último a cor da sombra;*/
-    -webkit-box-shadow: 2px 2px 5px silver;
-    box-shadow: 2px 2px 5px silver;
-}
-
-main #categoria div {
-    text-align: center;
-    -webkit-box-flex: 1;
-    -ms-flex: 1;
-    flex: 1
-}
-
-main #categoria div h3 {
-    font-family: "Courgette";
-    margin: 10px;
-    /* text-shadow: 2px -2px 5px red; */
-}
-
 main section {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -519,9 +425,7 @@ main form {
     margin: auto 10px;
     border-radius: 20px;
     color: #fff;
-
-    /* border:1px solid silver;
-    box-shadow: 0px 0px 10px gray; */
+    margin-bottom: 100px;
 }
 
 
