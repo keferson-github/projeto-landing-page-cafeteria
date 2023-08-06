@@ -273,20 +273,38 @@ footer {
     padding-bottom: auto;
 }
 
-footer #endereco {
+footer h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 16px;
+}
+
+footer #endereco,
+h6 {
     -webkit-box-flex: 1;
     -ms-flex: 1;
-    flex: 1;
+    flex: 4;
     color: #fff;
     font-family: "arial";
-    font-size: 12pt;
+    font-size: 15px;
     /* text-align: right; */
+}
+
+#copyright {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: normal;
+    margin: 20px auto;
 }
 
 footer #redes {
     -webkit-box-flex: 1;
     -ms-flex: 1;
-    flex: 1;
+    flex: 3;
 }
 
 footer #redes nav {
