@@ -332,6 +332,7 @@ main {
     min-width: 360px;
     max-width: 768px;
     margin: auto;
+    align-items: center;
 }
 
 
@@ -341,16 +342,14 @@ main h2 {
     font-size: 25px;
     margin: 30px;
     text-align: center;
-
 }
 
 /*Nossa Localização*/
 main h3 {
     font-family: "lobster";
-    font-size: 25px;
+    font-size: 40px;
     margin: 30px;
     text-align: center;
-
 }
 
 main p {
@@ -363,22 +362,20 @@ main p {
 
 }
 
-main #imghome {
-    text-align: center;
-}
-
 
 main #imghome img {
-    display: inline-block;
-    flex-wrap: wrap;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-around;
-    width: 80px;
-    height: 80px;
+    width: 200px;
+    height: 200px;
+    align-items: center;
     /* Vamos arredondar os cantos da imagem com 
     comando border-radius. O valor, você aplicar em
     pixel ou percentual. */
     border-radius: 20px;
-    margin: 15px auto;
+    margin: 30px;
     /* Para deixar as imagens opacas ou transparentes você pode usar 
     o comando opacity com o valor variando entre 0 e 1. Onde 0(zero)
     totalmente transparente e 1 totalmente visível */
