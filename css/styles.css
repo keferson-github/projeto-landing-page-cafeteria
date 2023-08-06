@@ -584,12 +584,83 @@ main form input[type=submit]:hover {
 
 /* =============== Área dos breakpoints de responsividade ==================== */
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 1290px) {
+    header {
+        background-position: 0px 0px;
+        background-repeat: no-repeat;
+
+        flex-direction: column;
+
+    }
+}
+
+
+#superior nav {
+    background-color: black !important;
+    position: fixed;
+    left: -210px;
+    top: 0px;
+    z-index: 10000;
+    width: 200px;
+    height: 100vh;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 20px;
+    transition: ease 0.5s;
+}
+
+#superior nav ul li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.abrirmenu {
+    display: block;
+    width: 40px;
+}
+
+
+@media (min-width: 0px) and (max-width: 768px) {
+
+    .fecharmenu {
+        display: block;
+        width: 30px;
+        height: 30px;
+        font-size: 20pt;
+        padding: 0px;
+        text-align: center;
+        position: absolute;
+        top: 0px;
+        left: 170px;
+        border-radius: 0;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 1200px) {
+
+    .fecharmenu {
+        display: block;
+        width: 50px;
+        height: 30px;
+        font-size: 18px;
+        padding: 0px;
+        text-align: center;
+        position: absolute;
+        top: 10px;
+        left: 160px;
+        border-radius: 30px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 0px) and (max-width: 1000px) {
     header {
         background-position: 0px 0px;
         background-repeat: no-repeat;
         flex-direction: column;
-
     }
 
     #superior nav {
@@ -616,90 +687,23 @@ main form input[type=submit]:hover {
         width: 40px;
     }
 
-    @media (min-width: 0px) and (max-width: 1000px) {
 
-        .fecharmenu {
-            display: block;
-            width: 30px;
-            height: 30px;
-            font-size: 20pt;
-            padding: 0px;
-            text-align: center;
-            position: absolute;
-            top: 0px;
-            left: 170px;
-            border-radius: 0;
-        }
+    .fecharmenu {
+        display: block;
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+        padding: 0px;
+        text-align: center;
+        position: absolute;
+        top: 10px;
+        left: 160px;
+        border-radius: 30px;
     }
+}
 
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
 
-    /* Medium devices (tablets, 768px and up) */
-    @media (min-width: 768px) {
-
-        .fecharmenu {
-            display: block;
-            width: 30px;
-            height: 30px;
-            font-size: 18px;
-            padding: 0px;
-            text-align: center;
-            position: absolute;
-            top: 10px;
-            left: 160px;
-            border-radius: 30px;
-        }
-    }
-
-
-    /* Large devices (desktops, 992px and up) */
-    @media (min-width: 0px) and (max-width: 1000px) {
-        header {
-            background-position: 0px 0px;
-            background-repeat: no-repeat;
-            flex-direction: column;
-        }
-
-        #superior nav {
-            background-color: black !important;
-            position: fixed;
-            left: -210px;
-            top: 0px;
-            z-index: 10000;
-            width: 200px;
-            height: 100vh;
-            text-align: left;
-            padding-top: 100px;
-            padding-left: 20px;
-            transition: ease 0.5s;
-        }
-
-        #superior nav ul li {
-            display: block;
-            margin-bottom: 10px;
-        }
-
-        .abrirmenu {
-            display: block;
-            width: 40px;
-        }
-
-
-        .fecharmenu {
-            display: block;
-            width: 30px;
-            height: 30px;
-            font-size: 18px;
-            padding: 0px;
-            text-align: center;
-            position: absolute;
-            top: 10px;
-            left: 160px;
-            border-radius: 30px;
-        }
-    }
-
-    /* X-Large devices (large desktops, 1200px and up) */
-    @media (min-width: 1200px) {}
-
-    /* XX-Large devices (larger desktops, 1400px and up) */
-    @media (min-width: 1400px) {}
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1200px) {}
