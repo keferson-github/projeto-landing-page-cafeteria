@@ -460,8 +460,8 @@ main form {
     display: black;
     justify-content: center;
     width: 100%;
-    padding: 30px;
-    margin: auto 10px;
+    padding: 20px;
+    margin: auto 30px;
     border-radius: 20px;
     color: #fff;
     margin-bottom: 100px;
@@ -486,14 +486,14 @@ main form input[type=email] {
     border-bottom: 1px solid silver;
     outline: none;
     border-radius: 10px;
-    margin-left: 22px;
+    margin-left: 10px;
     /*retirar a borda ao clicar no campo*/
 }
 
 main form select {
-    width: 50%;
+    width: 70%;
     padding: 10px;
-    margin-left: 22px;
+    margin-left: 10px;
     margin-bottom: 10px;
     border: 0px;
     border-bottom: 1px solid silver;
@@ -505,7 +505,7 @@ main form textarea {
     height: 200px;
     font-family: "arial";
     padding: 10px;
-    margin-left: 21px;
+    margin-left: 10px;
     display: block;
     outline-color: rgba(0, 0, 0, 0.481);
     border-radius: 10px;
@@ -516,15 +516,13 @@ select {
     border-radius: 10px;
 }
 
-main form span {
-    font-family: arial;
-    margin-top: 10px;
-    margin-left: 25px;
+main form span p {
+    margin: 30px 0px 0px 30px;
 }
 
 main form input[type=submit] {
     display: block;
-    margin: 20px auto;
+    margin: 20px 20px;
     border: 0px;
     background-color: rgb(190, 22, 22);
     color: white;
