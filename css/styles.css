@@ -219,7 +219,7 @@ o link o fundo fique com uma cor diferente.
     color: #fff;
     text-decoration: none;
     font-family: "arial";
-    margin-right: -55%;
+    margin: auto;
 }
 
 #superior #whatsapp a {
@@ -259,9 +259,9 @@ o link o fundo fique com uma cor diferente.
 }
 
 #cabecalho img {
-    height: 100px;
-    width: 100px;
-    margin-left: 10px;
+    height: 150px;
+    width: 150px;
+    margin: auto 20px;
 }
 
 
@@ -349,7 +349,7 @@ main h3 {
 }
 
 main p {
-    margin: 0px 150px;
+    margin: auto 20px;
     text-align: center;
     text-indent: 20px;
     line-height: 25px;
