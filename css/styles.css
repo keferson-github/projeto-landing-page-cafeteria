@@ -188,6 +188,7 @@ o link o fundo fique com uma cor diferente.
 
 
 #whatsapp {
+    display: inline-block;
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -218,7 +219,7 @@ o link o fundo fique com uma cor diferente.
     color: #fff;
     text-decoration: none;
     font-family: "arial";
-
+    margin-right: -55%;
 }
 
 #superior #whatsapp a {
@@ -255,6 +256,12 @@ o link o fundo fique com uma cor diferente.
     margin: -25px auto;
     text-align: center;
     font-family: arial;
+}
+
+#cabecalho img {
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
 }
 
 
