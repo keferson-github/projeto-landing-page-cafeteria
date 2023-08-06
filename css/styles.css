@@ -266,7 +266,7 @@ o link o fundo fique com uma cor diferente.
 #cabecalho img {
     height: 150px;
     width: 150px;
-    margin: auto 20px;
+    margin: -64px 118px;
 }
 
 
@@ -507,7 +507,7 @@ main #categoria a {
     color: #333;
 }
 
-main #mapa {
+section #mapa {
     height: 300px ! important;
     width: 100% ! important;
 }
