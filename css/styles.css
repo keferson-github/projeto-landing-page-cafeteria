@@ -96,7 +96,7 @@ header {
     que varia entre 0 e 1, onde 0(zero) é 
     totalmente transparente e 1 totalmente visível
      */
-    background-color: rgba(0, 0, 0, 0.576);
+    background-color: rgba(0, 0, 0, 0.591);
     height: 500px;
     color: #fff;
     margin: auto;
@@ -251,7 +251,7 @@ o link o fundo fique com uma cor diferente.
     margin: -25px auto;
     text-align: center;
     font-family: arial;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 #cabecalho img {
