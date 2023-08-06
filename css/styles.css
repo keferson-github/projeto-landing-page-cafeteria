@@ -42,7 +42,7 @@ html {
 .abrirmenu {
     text-decoration: none;
     background-color: transparent;
-    border: 1px solid rgba(30, 30, 30, 0.572);
+    border: none;
     padding: 10px;
     color: white;
     font-size: 20pt;
@@ -281,11 +281,27 @@ footer {
     width: 100%;
 }
 
-footer h5,
-p {
+footer h5 {
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    font-size: 20px;
+}
+
+footer h6 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
     font-size: 16px;
+    margin: 15px auto;
+    margin-left: 55px;
+}
+
+footer p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 15px;
 }
 
 footer #endereco {
@@ -293,7 +309,6 @@ footer #endereco {
     flex: 4 1 0%;
     color: rgb(255, 255, 255);
     font-family: arial;
-    font-size: 15px;
     padding: 30px;
     text-align: center;
     margin-bottom: -50px;
@@ -308,7 +323,7 @@ footer #endereco {
     font-size: 16px;
     letter-spacing: 1px;
     text-transform: normal;
-    margin: 20px auto;
+    margin: 5px auto;
 }
 
 footer #redes {
@@ -342,6 +357,11 @@ inline-block*/
 footer #redes nav ul li {
     display: inline-block;
     margin-left: 20px;
+}
+
+footer #redes nav ul li:hover {
+    background-color: rgb(248, 210, 0);
+    border-radius: 50%;
 }
 
 footer #redes nav ul li a img {
