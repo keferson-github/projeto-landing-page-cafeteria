@@ -266,7 +266,7 @@ o link o fundo fique com uma cor diferente.
 #cabecalho img {
     height: 150px;
     width: 150px;
-    margin: -64px 118px;
+    margin: auto 20px;
 }
 
 
