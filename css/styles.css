@@ -174,6 +174,7 @@ comando disply com o valor inline-block
     -webkit-transition: ease 0.5s;
     -o-transition: ease 0.5s;
     transition: ease 0.5s;
+    margin: auto;
 }
 
 /*
@@ -282,7 +283,7 @@ footer {
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
-    padding: 20px;
+    padding: 30px;
     /* height: 250px; */
     padding-top: 30px;
     padding-bottom: 30px;
@@ -454,6 +455,7 @@ main section {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-bottom: 70px;
+    margin: auto;
 }
 
 main #item1,
@@ -506,8 +508,8 @@ main #categoria a {
 }
 
 main #mapa {
-    height: auto;
-    width: 100%;
+    height: 300px ! important;
+    width: 100% ! important;
 }
 
 /* ==================== formatação do formulário ======================== */
@@ -515,11 +517,12 @@ main form {
     background-color: #000000b1;
     display: black;
     justify-content: center;
-    width: 60%;
+    width: 100%;
     padding: 35px;
-    margin: 10px auto;
+    margin: auto 10px;
     border-radius: 10px;
     color: #fff;
+
     /* border:1px solid silver;
     box-shadow: 0px 0px 10px gray; */
 }
