@@ -219,7 +219,18 @@ o link o fundo fique com uma cor diferente.
 
 }
 
+#superior #whatsapp a {
+    background-color: rgb(27, 126, 27);
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    border-radius: 30px;
+}
 
+#superior #whatsapp a:hover {
+    background-color: rgb(74, 185, 74);
+    transition: ease-in 0.2s;
+}
 
 #cabecalho h2 {
     text-align: center;
