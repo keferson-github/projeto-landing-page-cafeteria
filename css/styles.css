@@ -340,7 +340,7 @@ footer p {
     font-family: "Poppins";
     text-align: center;
     font-size: 12px;
-    text-transform: uppercase;
+    text-transform: normal;
     margin-top: 10px ! important;
 }
 
