@@ -1,3 +1,7 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 /*
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v8.4.14,
@@ -196,7 +200,7 @@ o link o fundo fique com uma cor diferente.
 #superior nav ul li a {
     text-decoration: none;
     color: #fff;
-    font-family: "arial";
+    font-family: "Poppins";
     font-size: 10pt;
     font-weight: bold;
     /*
@@ -213,7 +217,7 @@ o link o fundo fique com uma cor diferente.
 #superior #whatsapp a {
     color: #fff;
     text-decoration: none;
-    font-family: "arial";
+    font-family: "Poppins";
 }
 
 #superior #whatsapp a {
@@ -236,9 +240,9 @@ o link o fundo fique com uma cor diferente.
 #cabecalho h2 {
     text-align: center;
     padding-top: 150px;
-    font-family: arial;
+    font-family: "Lobster";
     margin: 40px auto;
-    font-size: 30px;
+    font-size: 40px;
     /*
     Vamos aplicar um espaçamento entre as letras. O comando 
     é letter-spacing, você pode aplicar valores positivos ou negativos.
@@ -250,7 +254,7 @@ o link o fundo fique com uma cor diferente.
     width: 80%;
     margin: -25px auto;
     text-align: center;
-    font-family: arial;
+    font-family: "Poppins";
     font-size: 17px;
 }
 
@@ -283,14 +287,14 @@ footer {
 
 footer h5 {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins";
     text-align: center;
     font-size: 20px;
 }
 
 footer h6 {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins";
     text-align: left;
     font-size: 16px;
     margin: 15px auto;
@@ -299,7 +303,7 @@ footer h6 {
 
 footer p {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins";
     text-align: center;
     font-size: 15px;
 }
@@ -318,7 +322,7 @@ footer #endereco {
 #copyright {
     display: inline-block;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Poppins";
     font-weight: normal;
     font-size: 16px;
     letter-spacing: 1px;
@@ -391,10 +395,12 @@ main h2 {
 
 /*Nossa Localização*/
 main h3 {
-    font-family: "lobster";
-    font-size: 40px;
-    margin: 30px;
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: bold;
+    margin: 50px auto;
     text-align: center;
+    text-transform: capitalize;
 }
 
 main p {
@@ -402,7 +408,7 @@ main p {
     text-align: justify;
     text-indent: 20px;
     line-height: 25px;
-    font-family: "Arial";
+    font-family: "Poppins";
     margin-bottom: 30px;
 
 }
@@ -451,6 +457,7 @@ main section div p {
 main #categoria a {
     text-decoration: none;
     color: #333;
+    font-family: "Poppins";
 }
 
 
@@ -465,6 +472,7 @@ main form {
     border-radius: 20px;
     color: #fff;
     margin-bottom: 100px;
+    margin-top: -30px;
 }
 
 
@@ -487,12 +495,14 @@ main form input[type=email] {
     outline: none;
     border-radius: 10px;
     margin-left: 10px;
+    font-family: "Poppins";
     /*retirar a borda ao clicar no campo*/
 }
 
 main form input[type=submit] {
     background-color: #000000;
     width: 170px ! important;
+    font-family: "Poppins";
 }
 
 main form select {
@@ -508,7 +518,7 @@ main form select {
 main form textarea {
     width: 95%;
     height: 200px;
-    font-family: "arial";
+    font-family: "Poppins";
     padding: 10px;
     margin-left: 10px;
     display: block;
@@ -528,7 +538,7 @@ main form span p {
 main form input[type=submit] {
     display: block;
     margin: 20px 20px;
-    border: 0px;
+    border: 0;
     background-color: rgb(190, 22, 22);
     color: white;
     padding: 10px;
