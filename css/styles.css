@@ -233,8 +233,7 @@ h5 {
     flex-direction: row;
     height: auto;
     width: 100%;
-    border-radius: 5px;
-    margin: 20px auto;
+    margin: 20px 0;
 }
 
 #container-aconchegante img {
@@ -242,8 +241,7 @@ h5 {
     flex-direction: row;
     height: auto;
     width: 100%;
-    border-radius: 5px;
-    margin: 20px auto;
+    margin: 20px 0;
 }
 
 
