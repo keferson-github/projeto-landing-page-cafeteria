@@ -536,6 +536,7 @@ main form input[type=email] {
     border-radius: 10px;
     margin-left: 10px;
     font-family: "Poppins";
+    margin-top: 10px;
     /*retirar a borda ao clicar no campo*/
 }
 
