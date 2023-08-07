@@ -276,12 +276,13 @@ h5 {
     margin-top: -150px;
 }
 
-#cabecalho h2 {
+#cabecalho h1 {
     text-align: center;
     padding-top: 150px;
     font-family: "Lobster";
     margin: 40px auto;
-    font-size: 40px;
+    font-size: 50px;
+    letter-spacing: 5px;
     /*
     Vamos aplicar um espaçamento entre as letras. O comando 
     é letter-spacing, você pode aplicar valores positivos ou negativos.
@@ -432,7 +433,7 @@ main {
 /* ============== estios para a página home ============ */
 main h2 {
     font-family: "lobster";
-    font-size: 25px;
+    font-size: 30px;
     margin: 30px;
     text-align: center;
 }
@@ -528,6 +529,11 @@ select {
     margin-left: 0px;
 }
 
+#checkbox-font {
+    font-family: "Poppins";
+    font-size: 15px;
+}
+
 main form input[type=text],
 main form input[type=tel],
 main form input[type=email] {
@@ -570,6 +576,7 @@ main form textarea {
     outline-color: rgba(0, 0, 0, 0.481);
     border-radius: 10px;
     margin-bottom: 20px;
+
 }
 
 select {
@@ -584,8 +591,8 @@ main form input[type=submit] {
     display: block;
     margin: 20px 20px;
     border: 0;
-    background-color: rgb(190, 22, 22);
     color: white;
+    font-family: "Poppins";
     padding: 10px;
     -webkit-transition: ease 0.2s;
     -o-transition: ease 0.2s;
@@ -596,14 +603,17 @@ main form input[type=submit] {
 }
 
 main form input[type=submit] {
-    background-color: #000000;
+    background-color: #00000000;
+    border: 1px cornsilk solid;
 }
 
 main form input[type=submit]:hover {
-    background-color: rgb(250, 15, 15);
+    background-color: rgb(32, 79, 251);
     color: white;
     cursor: pointer;
     width: 120px;
+    border: 1px cornsilk solid;
+    ;
 }
 
 
