@@ -583,7 +583,7 @@ main form input[type=submit]:hover {
 
 
 /* =============== Área dos breakpoints de responsividade ==================== */
-/* Small devices (landscape phones, 576px and up) */
+/* Small devices (landscape and portrait phones, 576px and up) */
 @media (min-width: 0px) and (max-width: 1200px) {
     header {
         background-position: 0px 0px;
