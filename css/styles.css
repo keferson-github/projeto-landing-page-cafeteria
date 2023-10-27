@@ -619,19 +619,13 @@ main form input[type=submit]:hover {
 
 
 /* =============== Área dos breakpoints de responsividade ==================== */
-<<<<<<< HEAD
-/* Small devices (landscape and portrait phones, 576px and up) */
-@media (min-width: 0px) and (max-width: 1200px) {
-=======
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 0px) and (max-width: 1290px) {
->>>>>>> 862e648ad76f5bf3520df31b8bdce3513aa2b5e3
-    header {
+header {
         background-position: 0px 0px;
         background-repeat: no-repeat;
-
         flex-direction: row;
-
     }
 }
 
@@ -682,6 +676,7 @@ main form input[type=submit]:hover {
         left: 160px;
         border-radius: 30px;
     }
+}
 
 
     /* Large devices (desktops, 992px and up) */
@@ -734,7 +729,11 @@ main form input[type=submit]:hover {
     }
 
     /* X-Large devices (large desktops, 1200px and up) */
-    @media (min-width: 1200px) {}
+    @media (min-width: 1200px) {
+
+    }
 
     /* XX-Large devices (larger desktops, 1400px and up) */
-    @media (min-width: 1200px) {}
+    @media (min-width: 1200px) {
+
+    }
