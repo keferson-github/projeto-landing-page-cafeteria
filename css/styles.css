@@ -372,7 +372,6 @@ footer #endereco:hover {
 
 footer #redes {
     -webkit-box-flex: 6;
-    -ms-flex: 6;
     margin: auto;
 }
 
@@ -494,7 +493,7 @@ main #item1,
 }
 
 main section div p {
-    margin: 0px;
+    margin: 0;
 }
 
 
@@ -621,11 +620,11 @@ main form input[type=submit]:hover {
 /* =============== Área dos breakpoints de responsividade ==================== */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 0px) and (max-width: 1290px) {
+@media (min-width: 0px) and (max-width: 768px) {
 header {
-        background-position: 0px 0px;
-        background-repeat: no-repeat;
-        flex-direction: row;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    flex-direction: row;
     }
 }
 
@@ -660,7 +659,7 @@ header {
 
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 0px) and (max-width: 2000px) {
+@media (min-width: 0px) and (max-width: 768px) {
 
     fecharmenu {
         background-color: red;
@@ -680,7 +679,7 @@ header {
 
 
     /* Large devices (desktops, 992px and up) */
-    @media (min-width: 0px) and (max-width: 2000px) {
+    @media (min-width: 992px) and (max-width: 2000px) {
         header {
             background-position: 0px 0px;
             background-repeat: no-repeat;
@@ -726,14 +725,4 @@ header {
             left: 160px;
             border-radius: 30px;
         }
-    }
-
-    /* X-Large devices (large desktops, 1200px and up) */
-    @media (min-width: 1200px) {
-
-    }
-
-    /* XX-Large devices (larger desktops, 1400px and up) */
-    @media (min-width: 1200px) {
-
     }
