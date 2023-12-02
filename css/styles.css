@@ -661,7 +661,7 @@ header {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 0px) and (max-width: 768px) {
 
-    fecharmenu {
+    .fecharmenu {
         background-color: red;
         color: white;
         display: block;
