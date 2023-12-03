@@ -32,21 +32,21 @@
         <!--id="subscription-form"-->
         <div id="contact-form">
             <p class="title-form">Envie seu pedido</p>
-            <form action="https://formsubmit.co/keferson_buzatto@hotmail.com" method="POST">
+            <form action="https://formsubmit.co/kefersonbuzatto90@gmail.com" method="POST">
                 <!--form-group-->
                 <div class="order-form">
                     <label for="name">Nome</label>
-                    <input type="text" name="name" placeholder="Digite seu nome">
+                    <input type="text" name="name" placeholder="Digite seu nome" required>
                 </div>
                 <!--form-group-->
                 <div class="order-form">
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" placeholder="Digite seu e-mail">
+                    <input type="email" name="email" placeholder="Digite seu e-mail" required>
                 </div>
                 <!--form-group-->
                 <div class="order-form">
                     <label for="phone">Telefone</label>
-                    <input type="text" name="phone" placeholder="Número do seu Whatsapp">
+                    <input type="text" name="phone" placeholder="Número do seu Whatsapp" required>
                 </div>
                 <!--form-group-->
                 <div class="order-form">
@@ -58,7 +58,9 @@
                         <option value="liberica">Liberica</option>
                         <option value="excelsa">Exelsa</option>
                         <option value="maragogipe">Maragogipe</option>
-                    </select> 
+                    </select>
+                    <label for="observation">Observação</label>
+                    <textarea name="observation" id="observation" placeholder="Deixe uma observação sobre o pedido..." cols="50" rows="8"></textarea> 
                 </div>
                 <!--btn-->
                 <input type="submit" class="btn-form" value="Fazer pedido">

@@ -100,8 +100,19 @@ body {
 .order-form input,
 .order-form select {
     padding: 6px 8px;
+    margin-bottom: 8px;
     border-radius: 5px;
     border: none;
+    outline: none;
+}
+/*#observation (text-form)*/
+#observation {
+    padding: .3em;
+    margin-top: 0.8em;
+}
+/*text-area*/
+textarea {
+    border-radius: 5px;
     outline: none;
 }
 /*.btn (form button)*/
@@ -125,7 +136,7 @@ body {
     background-color: var(--tertiary);
     color: var(--text-color);
     text-align: center;
-    padding: 2em;
+    padding: 1.5em;
     font-size: 2em;
     font-weight: 600;
     text-transform: uppercase;
