@@ -1,0 +1,173 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --primary: #402116;
+    --secundary: #BF7960;
+    --tertiary: #F2994B;
+    --quaternary: #F2D194;
+    --text-color: #F2E3D5;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*body style*/
+body {
+    padding-bottom: 200px;
+}
+/*event-description (header)*/
+#call-to-action {
+    background: linear-gradient(rgba(0, 0, 0, 0.842), rgba(0,0,0,0.65)), url('../img/bgHrz-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--text-color);
+}
+/*#disclaimer h2, #disclaimer .event-date*/
+#contact-us h2,
+#contact-us .blackCoffeeSlogan {
+    color: var(--tertiary);
+}
+/*#disclaimer h2 (title)*/
+#contact-us h2 {
+    font-size: 5em;
+    margin-bottom: 1em;
+}
+/*#disclaimer .about-event (description)*/
+#contact-us .blackCoffeSlogan {
+   font-size: 2em;
+   text-transform: uppercase;
+   max-width: 350px;
+   font-weight: 800;
+   margin-bottom: 1em;
+}
+/*.geo-icon*/
+.bi-geo-alt {
+    font-size: 1.5em;
+}
+/*.localization*/
+.local-address {
+    line-height: 3em;
+}
+/*#disclaimer p*/
+#contact-us p {
+    font-size: 1em;
+    margin-bottom: .3em;
+}
+/*#disclaimer .event-date*/
+#contact-us .blackCoffeeSlogan {
+    font-weight: 700;
+}
+/*#subscription-form*/
+#contact-form {
+    background-color: var(--tertiary);
+    padding: 2em;
+    max-width: 100%;
+    border-radius: 10px;
+}
+/*.title-form*/
+.title-form {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+/*#subscription-form*/
+#contact-form {
+    font-size: 1.2em;
+    color: var(--text-color);
+    margin-bottom: 1em;
+}
+/*#form-group*/
+.order-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8em;
+}
+/*.form-group*/
+.order-form label {
+    color: var(--primary);
+    margin-bottom: .3em;
+    font-weight: bold;
+}
+/*.form-group input, .form-group select*/
+.order-form input,
+.order-form select {
+    padding: 6px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+/*.btn (form button)*/
+.btn-form {
+    background-color: var(--primary);
+    color: var(--text-color);
+    text-transform: uppercase;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+/*.btn (form button)*/
+.btn-form:hover {
+    opacity: 1;
+}
+/*#key-benefits h2 (section)*/
+#black-coffee-categories h2 {
+    background-color: var(--tertiary);
+    color: var(--text-color);
+    text-align: center;
+    padding: 2em;
+    font-size: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/*.benefits*/
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 4em;
+    width: 80%;
+    margin: 0 auto;
+}
+/*.benefit*/
+.category {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+    color: var(--primary);
+}
+/*.benefit .benefit-img*/
+.category .category-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+}
+/*#benefit-1*/
+#category-1 {
+    background-image: url('../img/banner-mini-1.jpg');
+}
+/*#benefit-2*/
+#category-2 {
+    background-image: url('../img/banner-mini-2.jpg');
+}
+/*#benefit-3*/
+#category-3 {
+    background-image: url('../img/banner-mini-3.jpg');
+}
+
+/*Próxima sessão para construir: sessão de local. Tempo do vídeo: 38 minutos.*/
+
