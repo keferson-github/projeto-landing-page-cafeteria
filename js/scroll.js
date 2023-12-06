@@ -1,6 +1,6 @@
 const scrollAnima = document.querySelector('[data-anima="scroll"]');
 
-const halfOfTheWindow = window.innerHeight * 4.5;
+const halfOfTheWindow = window.innerHeight * 5;
 
 function animationScroll() {
     const topItem = scrollAnima.getBoundingClientRect().top;
