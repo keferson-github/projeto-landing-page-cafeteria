@@ -19,7 +19,7 @@
 body {
     padding-bottom: 200px;
 }
-/*event-description (header)*/
+/*event-description/event form (header)*/
 #call-to-action {
     background: linear-gradient(rgba(0, 0, 0, 0.842), rgba(0,0,0,0.65)), url('../img/bgHrz-1.jpg');
     background-position: center;
@@ -179,6 +179,87 @@ textarea {
 #category-3 {
     background-image: url('../img/banner-mini-3.jpg');
 }
+/*#location*/
+#environment {
+    background: linear-gradient(rgba(0, 0, 0, 0.842), rgba(0,0,0,0.65)), url('../img/bgHrz-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 580px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--text-color);
+    margin-bottom: 3em;
+}
+/*#address, #about-location*/
+#environment-content,
+#about-environment {
+    max-width: 30%;
+}
+/*address*/
+#environment-content {
+    display: flex;
+}
+/*#address i*/
+#environment-icons i {
+    color: var(--quaternary);
+    font-size: 2em;
+    margin-right: 0.5em;
+}
+/*#address-details*/
+#environment-details {
+    text-align: left;
+    font-size: 1.3em;
+}
+/*#about-location*/
+#about-environment h3 {
+    color: var(--tertiary);
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+/*#about-location p*/
+#about-environment p {
+    line-height: 2em;
+}
+/*#details (details container)*/
+#details {
+    width: 80%;
+    margin: 0 auto;
+}
+/*.detail (detail content)*/
+.detail {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 4em;
+}
 
-/*Próxima sessão para construir: sessão de local. Tempo do vídeo: 38 minutos.*/
+.detail img {
+    width: 50%;
+    border-radius: 2%;
+}
+
+.detail h3 {
+    margin-bottom: 1em;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+#detail-1 h3 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.detail-decription {
+    width: 100%;
+    padding-left: 2em;
+}
+
+.detail-description ul {
+    list-style-position: inside;
+}
+
 
