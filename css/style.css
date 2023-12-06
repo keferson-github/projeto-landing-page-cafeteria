@@ -368,6 +368,10 @@ textarea {
         margin-bottom: 2em;
     }
 
+    #black-coffee-categories h2 {
+        font-size: 3em;
+    }
+
     .categories {
         flex-direction: column;
         align-items: center;
