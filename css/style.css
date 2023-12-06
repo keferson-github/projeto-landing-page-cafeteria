@@ -15,7 +15,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*event-description/event form (header)*/
+
+html {
+    scroll-behavior: smooth;
+}
+
 #call-to-action {
     background: linear-gradient(rgba(0, 0, 0, 0.842), rgba(0,0,0,0.65)), url('../img/bgHrz-1.jpg');
     background-position: center;
@@ -27,17 +31,17 @@
     align-items: center;
     color: var(--text-color);
 }
-/*#disclaimer h2, #disclaimer .event-date*/
+
 #contact-us h2,
 #contact-us .blackCoffeeSlogan {
     color: var(--tertiary);
 }
-/*#disclaimer h2 (title)*/
+
 #contact-us h2 {
     font-size: 5em;
     margin-bottom: 1em;
 }
-/*#disclaimer .about-event (description)*/
+
 #contact-us .blackCoffeSlogan {
    font-size: 2em;
    text-transform: uppercase;
@@ -45,7 +49,7 @@
    font-weight: 800;
    margin-bottom: 1em;
 }
-/*.geo-icon*/
+
 .bi-geo-alt {
     display: flex;
     justify-content: flex-start;
@@ -53,50 +57,50 @@
     gap: 20px;
     font-size: 1.5em;
 }
-/*.localization*/
+
 .local-address {
     line-height: 3em;
 }
-/*#disclaimer p*/
+
 #contact-us p {
     font-size: 1em;
     margin-bottom: .3em;
 }
-/*#disclaimer .event-date*/
+
 #contact-us .blackCoffeeSlogan {
     font-weight: 700;
 }
-/*#subscription-form*/
+
 #contact-form {
     background-color: var(--tertiary);
     padding: 2em;
     max-width: 100%;
     border-radius: 10px;
 }
-/*.title-form*/
+
 .title-form {
     font-size: 1.5em;
     font-weight: 600;
 }
-/*#subscription-form*/
+
 #contact-form {
     font-size: 1.2em;
     color: var(--text-color);
     margin-bottom: 1em;
 }
-/*#form-group*/
+
 .order-form {
     display: flex;
     flex-direction: column;
     margin-bottom: 0.8em;
 }
-/*.form-group*/
+
 .order-form label {
     color: var(--primary);
     margin-bottom: .3em;
     font-weight: bold;
 }
-/*.form-group input, .form-group select*/
+
 .order-form input,
 .order-form select {
     padding: 6px 8px;
@@ -105,17 +109,17 @@
     border: none;
     outline: none;
 }
-/*#observation (text-form)*/
+
 #observation {
     padding: .3em;
     margin-top: 0.8em;
 }
-/*text-area*/
+
 textarea {
     border-radius: 5px;
     outline: none;
 }
-/*.btn (form button)*/
+
 .btn-form {
     background-color: var(--primary);
     color: var(--text-color);
@@ -127,11 +131,11 @@ textarea {
     cursor: pointer;
     opacity: 0.8;
 }
-/*.btn (form button)*/
+
 .btn-form:hover {
     opacity: 1;
 }
-/*#key-benefits h2 (section)*/
+
 #black-coffee-categories h2 {
     background: linear-gradient(to right, #000, #00000081);
     color: var(--tertiary);
@@ -141,7 +145,7 @@ textarea {
     font-weight: 800;
     text-transform: uppercase;
 }
-/*.benefits*/
+
 .categories {
     display: flex;
     justify-content: space-around;
@@ -149,7 +153,7 @@ textarea {
     width: 80%;
     margin: 0 auto;
 }
-/*.benefit*/
+
 .category {
     text-align: center;
     display: flex;
@@ -158,7 +162,7 @@ textarea {
     max-width: 20%;
     color: var(--primary);
 }
-/*.benefit .benefit-img*/
+
 .category .category-img {
     width: 250px;
     height: 250px;
@@ -167,19 +171,19 @@ textarea {
     background-position: center;
     margin-bottom: 1em;
 }
-/*#benefit-1*/
+
 #category-1 {
     background-image: url('../img/banner-mini-1.jpg');
 }
-/*#benefit-2*/
+
 #category-2 {
     background-image: url('../img/banner-mini-2.jpg');
 }
-/*#benefit-3*/
+
 #category-3 {
     background-image: url('../img/banner-mini-3.jpg');
 }
-/*#location*/
+
 #environment {
     background: linear-gradient(rgba(0, 0, 0, 0.842), rgba(0,0,0,0.65)), url('../img/bgHrz-2.jpg');
     background-position: center;
@@ -192,16 +196,16 @@ textarea {
     color: var(--text-color);
     margin-bottom: 3em;
 }
-/*#address, #about-location*/
+
 #environment-content,
 #about-environment {
     max-width: 40%;
 }
-/*#address*/
+
 #environment-content {
     display: flex;
 }
-/*#address i*/
+
 #icons-details {
     display: flex;
     justify-content: flex-start;
@@ -213,33 +217,33 @@ textarea {
     font-size: 2em;
     margin-right: 0.5em;
 }
-/*#icons-details h6*/
+
 #icons-details h6 {
     font-size: 0.4em;
     font-weight: 500;
 }
-/*#address-details*/
+
 #environment-details {
     text-align: left;
     font-size: 1.3em;
 }
-/*#about-location*/
+
 #about-environment h3 {
     color: var(--tertiary);
     font-size: 2.5em;
     margin-bottom: 1em;
     text-transform: uppercase;
 }
-/*#about-location p*/
+
 #about-environment p {
     line-height: 2em;
 }
-/*#details (details container)*/
+
 #details {
     width: 80%;
     margin: 0 auto;
 }
-/*.detail (detail container)*/
+
 .detail {
     display: flex;
     align-items: flex-start;
@@ -343,7 +347,7 @@ textarea {
     font-weight: bold;
 }
 
-/*mobile (event form*/
+/*mobile*/
 @media (max-width: 450px) {
 
     .btn {
