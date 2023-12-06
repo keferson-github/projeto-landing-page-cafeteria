@@ -20,28 +20,6 @@ html {
     scroll-behavior: smooth;
 }
 
-#call-to-action {
-    background: linear-gradient(rgba(0, 0, 0, 0.842), rgba(0,0,0,0.65)), url('../img/bgHrz-1.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: var(--text-color);
-}
-
-#contact-us h2,
-#contact-us .blackCoffeeSlogan {
-    color: var(--tertiary);
-}
-
-#contact-us h2 {
-    font-size: 5em;
-    margin-bottom: 1em;
-}
-
 .top {
     background-color: #000;
     position: fixed;
@@ -64,6 +42,29 @@ html {
     bottom: 20px;
 }
 
+#call-to-action {
+    background: linear-gradient(rgba(0, 0, 0, 0.842), rgba(0,0,0,0.65)), url('../img/bgHrz-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--text-color);
+}
+
+#contact-us h2,
+#contact-us .blackCoffeeSlogan {
+    color: var(--tertiary);
+}
+
+#contact-us h2 {
+    font-size: 5em;
+    margin-bottom: 1em;
+}
+
+
 #contact-us .blackCoffeSlogan {
    font-size: 2em;
    text-transform: uppercase;
@@ -78,6 +79,11 @@ html {
     align-items: center;
     gap: 20px;
     font-size: 1.5em;
+}
+
+.opening-hours-title {
+    font-size: 1.6em!important;
+    font-weight: bold;
 }
 
 .local-address {
