@@ -197,7 +197,7 @@ textarea {
 #about-environment {
     max-width: 40%;
 }
-/*address*/
+/*#address*/
 #environment-content {
     display: flex;
 }
@@ -239,7 +239,7 @@ textarea {
     width: 80%;
     margin: 0 auto;
 }
-/*.detail (detail content)*/
+/*.detail (detail container)*/
 .detail {
     display: flex;
     align-items: flex-start;
@@ -297,7 +297,7 @@ textarea {
 
 #cta .btn {
     background-color: transparent;
-    color: var(--tertiary);
+    color: #fcba80;
     width: 20%;
     margin: 0 auto;
     padding: 8px;
@@ -345,6 +345,11 @@ textarea {
 
 /*mobile (event form*/
 @media (max-width: 450px) {
+
+    .btn {
+        opacity: 1;
+    }
+
     #call-to-action {
         flex-direction: column;
         height: auto;
@@ -359,7 +364,7 @@ textarea {
     }
 
     #contact-form {
-        max-width: 70%;
+        max-width: 90%;
         margin-bottom: 2em;
     }
 
@@ -373,6 +378,88 @@ textarea {
     .category {
         max-width: 100%;
         margin-bottom: 2em;
+    }
+
+    #environment {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 2em 0;
+    }
+
+    #environment-content {
+        order: 2;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    #environment i {
+        margin: .3em 0;
+    }
+
+    #about-environment {
+        order: 1;
+        max-width: 100%;
+    }
+
+    #about-environment h3 {
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+
+    #icons-details {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        font-size: 37px;
+        margin-top: 1.5em;
+        margin-bottom: 1em;
+    }
+
+    #environment-details {
+        font-size: 1em;
+        padding: 1.5em;
+        text-align: center;
+    }
+
+    #about-environment p {
+        display: none;
+    }
+
+    .detail {
+        flex-direction: column;
+        margin-bottom: .5em;
+        gap: 0;
+    }
+
+    .detail img {
+        width: 100%;
+        margin: 2em 0;
+    }
+
+    #detail-1 img {
+        display: none;
+    }
+
+    #detail-description {
+        padding: 0;
+    }
+
+    #detail-3 img {
+        order: 2;
+    }
+
+    #detail-3 .detail-description {
+        order: 1;
+    }
+
+    #cta h3 {
+        text-align: center;
+    }
+
+    #cta .btn {
+        width: 80%;
     }
 
 }
