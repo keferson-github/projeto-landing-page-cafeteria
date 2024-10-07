@@ -101,7 +101,7 @@ html {
 
 #contact-form {
     background-color: var(--tertiary);
-    padding: 2em;
+    padding: 3em;
     max-width: 100%;
     border-radius: 10px;
 }
@@ -112,7 +112,7 @@ html {
 }
 
 #contact-form {
-    font-size: 1.2em;
+    font-size: 0.7em;
     color: var(--text-color);
     margin-bottom: 1em;
 }
